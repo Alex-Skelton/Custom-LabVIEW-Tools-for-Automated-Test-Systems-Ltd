@@ -1,0 +1,6 @@
+Step;,Name,Start conditions,End conditons,Constant conditions,Step duration,Max duration
+1,Init Ard,,ArduinoConnected = 1,,,10
+2,Init NI,,NIConnected = 1,,,10
+3,Init SM,,SMConnected = 1,,,10
+4,Run,,,Temp > 20,800,900
+5,Close,,,,,20

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='windows-1252' standalone='yes'?>
+<MetaData>
+<ProjectTemplate>
+  <Title localize="yes">Test Sequencer Project (Automated Test Systems)</Title>
+  <Description localize="yes">Implements a test sequencer architecture, using a QMH framework. Please open README.txt for more detailed information.</Description>
+  <Filters localize="yes">Templates:Automated Test Systems</Filters>
+  <Keywords localize="yes">;qmh;framework;architecture;</Keywords>
+  <LocationPath>ATS/Test Sequencer</LocationPath>
+  <ProjectPath>Test Sequencer template.lvproj</ProjectPath>>
+  <ListboxImagePath>images\Sequence.png</ListboxImagePath>
+  <DocumentationPath></DocumentationPath>
+  <CustomVIMode>None</CustomVIMode>
+  <CustomVIPath></CustomVIPath>
+  <EnvironmentMode></EnvironmentMode>
+  <SortPriority></SortPriority>
+  <LabelLocalizations></LabelLocalizations>
+</ProjectTemplate>

@@ -1,0 +1,48 @@
+Step;,Name,Start conditions,End conditons,Constant conditions,Step duration,Max duration
+1,Load 4 way,,pins=4,,,20
+2,Mate,de-mate=0,mate=1,,,20
+3,Fill,tank=0,tank=1,,,20
+4,De-mate,mate=1,mate=0,,,20
+5,Dwell ,mate=0,,,10,40
+6,Mate,mate=0,mate=1,,,20
+7,Pressurise,pressure<1.2,pressure=110,,,20
+8,Dwell ,,,pressure = 110,10,40
+9,IR pin ramp 1,Voltage=0,Voltage=4500,Pin = 1;pressure=110,5,10
+10,IR pin test 1,,IR = 100gohm,Pin = 1;Voltage = 4500;pressure=110,10,80
+11,Dwell ,,,,10,40
+12,IR pin ramp 2,Voltage = 0,Voltage = 4500,Pin = 2,5,10
+13,IR pin test 2,,IR = 100gohm,Pin = 2;Voltage = 4500,10,80
+14,Dwell ,,,,10,40
+15,IR pin ramp,Voltage = 0,Voltage = 4500,Pin = 3,5,10
+16,IR pin test,,IR = 100gohm,Pin = 3;Voltage = 4500,10,80
+17,Dwell ,,,,10,40
+18,IR pin ramp,Voltage = 0,Voltage = 4500,Pin = 4,5,10
+19,IR pin test,,IR = 100gohm,Pin = 4;Voltage = 4500,10,80
+20,Dwell ,,,,10,40
+21,IR pin ramp,Voltage = 0,Voltage = 4500,Pin = ALL,5,10
+22,IR pin test,,IR = 100gohm,Pin = ALL;Voltage = 4500,10,80
+23,Dwell ,,,,10,40
+24,Pressurise,Pressure = 120,Pressure = 330,,,120
+25,Dwell ,Pressure = 330,Pressure = 330,Pressure = 330,10,40
+26,De-mate,,,,,20
+27,Mate,,,,,20
+28,IR pin ramp,Voltage = 0,Voltage = 4500,Pin = 1,5,10
+29,IR pin test,,IR = 100gohm,Pin = 1;Voltage = 4500,10,80
+30,Dwell ,,,,10,40
+31,IR pin ramp,Voltage = 0,Voltage = 4500,Pin = 2,5,10
+32,IR pin test,,IR = 100gohm,Pin = 2;Voltage = 4500,10,80
+33,Dwell ,,,,10,40
+34,IR pin ramp,Voltage = 0,Voltage = 4500,Pin = 3,5,10
+35,IR pin test,,IR = 100gohm,Pin = 3;Voltage = 4500,10,80
+36,Dwell ,,,,10,40
+37,IR pin ramp,Voltage = 0,Voltage = 4500,Pin = 4,5,10
+38,IR pin test,,IR = 100gohm,Pin = 4;Voltage = 4500,10,80
+39,Dwell ,,,,10,40
+40,IR pin ramp,Voltage = 0,Voltage = 4500,Pin = ALL,5,10
+41,IR pin test,,IR = 100gohm,Pin = ALL;Voltage = 4500,10,80
+42,Dwell ,,,,10,40
+43,,,,,,
+44,,,,,,
+45,,,,,,
+46,,,,,,
+47,,,,,,
